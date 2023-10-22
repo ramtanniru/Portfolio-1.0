@@ -1,0 +1,33 @@
+.nav-pills .nav-link.active {
+    background-color: white;
+    border-bottom: 3px solid red;
+    border-radius: 0px;
+    color: black;
+    padding: 2px;
+  }
+.navbar-nav .nav-link.active{
+    color: red;
+    padding: 2px; 
+}
+  .nav-link{
+    color: black;
+    padding: 2px;
+    margin: 10px;
+    margin-top: 0px;
+  }
+
+  ul.footer li {
+    margin-right: 10px;
+  }
+  
+  ul.footer li:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+  }
+
+  logos{
+    color:red,
+  }
+  logos:hover{
+    color: white;
+  }
