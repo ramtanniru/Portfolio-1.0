@@ -5,7 +5,7 @@ import r1 from "../assets/images/r1.svg";
 
 const H3 = () => {
   const visit = () => {
-    window.location.href = "https://drive.google.com/file/d/1zdWleUUQoj19BkfUO1z9W7hrBhBv5U3H/view?usp=share_link";
+    window.open("https://drive.google.com/file/d/1LFRlccvq2PLRId7yguq2JnzXpatZH2lC/view?usp=sharing","_blank");
   }
   return (
     <div className="my-5 pb-5 d-flex" id="h3">
@@ -38,7 +38,7 @@ const H3 = () => {
                   </p>
                   <div className="">
                     <button className="btn btn-danger rounded-5 px-4 " type="button" onClick={visit}>
-                      Download CV
+                      View CV
                       <span> </span>
                       <span>
                         <i class="bi bi-arrow-right">

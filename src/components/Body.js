@@ -41,7 +41,6 @@ const Body = () => {
             <Hero/>
             <H2/>
             <H3/>
-            <Skills/>
             <H4/>
             <H5/>
             <H6/>

@@ -5,7 +5,7 @@ import './styles.css';
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-sm navbar-light bg-light px-sm-3 shadow">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light px-sm-3 shadow fixed-top">
       <div class="container-fluid col-12">
         <a class="navbar-brand col-1" href="#">
           <span className=" fw-bold text-danger">Port</span><span className=" fw-bold">folio.</span>

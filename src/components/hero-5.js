@@ -1,8 +1,8 @@
 import React from "react";
 import C3 from "./card-3";
 import img1 from "../assets/images/vit.svg";
-import img2 from "../assets/images/ai.svg";
-import img3 from "../assets/images/vit2.svg";
+import img2 from "../assets/images/vit2.svg";
+import img3 from "../assets/images/ai.svg";
 import img4 from "../assets/images/flutter.svg";
 import img5 from "../assets/images/html.svg";
 import img6 from "../assets/images/bs.svg";
@@ -15,10 +15,11 @@ const H5 = () => {
     const c1 = ["VIT-AP Home","UI/UX Design",img1,"https://www.figma.com/proto/d4F5acEXReBhOB67AlTx1o/HomeUi?page-id=0%3A1&type=design&node-id=293-12085&viewport=-10568%2C-1065%2C0.35&t=7wq5Kou4X3UwbYnO-1&scaling=scale-down&starting-point-node-id=293%3A12085&mode=design"];
     const c2 = ["VIT-AP Hostels","UI/UX Design",img2,"https://www.figma.com/proto/fGuX4l7D0K5qiTthg0Nfs4/UNI_HOME?page-id=0%3A1&type=design&node-id=1494-32832&viewport=4046%2C-11194%2C0.09&t=DHWnyjNgJ29ioebL-1&scaling=scale-down&starting-point-node-id=296%3A43516&show-proto-sidebar=1&mode=design"];
     const c3 = ["AI-CON","UI/UX Design",img3,"https://www.figma.com/proto/gKVRHC0brPqPAxFk3ooKle/AI-CON?page-id=0%3A1&type=design&node-id=11-123&viewport=500%2C192%2C0.07&t=WFnGB1EgFwbKHbP2-1&scaling=scale-down&starting-point-node-id=11%3A123&mode=design"]; 
+    const c9 = ["Jobify","UI/UX Design",img4,"https://www.figma.com/file/6sOAn9u1OfFwv0bQZIKiWJ/JOBIFY?type=design&node-id=0%3A1&mode=design&t=MhfqNCTwcD915T4A-1"]
     const c4 = ["To Do List","Flutter App",img4,"https://github.com/ramtanniru/TO-DO-LIST"];
     const c5 = ["HTML, CSS, JS","Web App",img5,"https://ramtanniru.github.io/MERN/"];
     const c6 = ["BootStrap","Web App",img6,"https://ramtanniru.github.io/BS_mern/"];
-    const c7 = ["React JS","Web App",img7,"https://github.com/ramtanniru/BookHive"];
+    const c7 = ["JOBIFY","Web App",img7,"https://jobify-frontend-khaki.vercel.app/"];
     const c8 = ["BookHive","Web App",img8,"https://github.com/ramtanniru/BookHive"];
   return (
     <div className="d-flex col-12 align-items-center mx-auto" id="h5">
@@ -59,7 +60,7 @@ const H5 = () => {
                     role="tab"
                     aria-controls="pills-profile"
                     aria-selected="false">
-                    MERN
+                    WEB
                   </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -87,6 +88,7 @@ const H5 = () => {
                     <C3 title={c1[0]} t={c1[1]} img={c1[2]} link={c1[3]}/>
                     <C3 title={c2[0]} t={c2[1]} img={c2[2]} link={c2[3]}/>
                     <C3 title={c3[0]} t={c3[1]} img={c3[2]} link={c3[3]}/>
+                    <C3 title={c9[0]} t={c9[1]} img={c9[2]} link={c9[3]}/>
                   </div>
             </div>
             <div

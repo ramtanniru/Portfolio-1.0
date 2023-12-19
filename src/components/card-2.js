@@ -3,7 +3,7 @@ import Btn from './btn'
 
 const C2 = ({img,head,bio,content,link}) => {
     const visit = ()=>{
-        window.location.href = link;
+        window.open(link,"_blank");
     }
   return (
     <div className='my-5 col-10 col-sm-3' onClick={visit}>

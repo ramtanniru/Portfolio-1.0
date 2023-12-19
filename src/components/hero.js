@@ -5,7 +5,7 @@ import img from '../assets/images/ram.svg';
 
 const Hero = () => {
   return (
-    <div className="d-flex flex-column" id="h1">
+    <div className="d-flex flex-column mt-5" id="h1">
       <div className="d-flex flex-lg-row flex-column align-items-center col-sm-12 header pt-3" style={{backgroundColor:"#EDF5FE"}}>
         <div className="d-flex flex-row align-items-center col-sm-7 mt-5 mt-sm-0">
             <div className="col-sm-4 col-2">
@@ -23,7 +23,7 @@ const Hero = () => {
                   <span className="text-danger"> There</span>
                 </p>
               </div>
-              <h1>I'm Ram Tanniru Ui & Ux Designer and Web Developer</h1>
+              <h1>I'm Ram Tanniru UI/UX Designer and Web Developer</h1>
               <p className="fw-light">
                 I'm creative designer and web developer based in India, and I'm very
                 passionate and dedicated to my work.

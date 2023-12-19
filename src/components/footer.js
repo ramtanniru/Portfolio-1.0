@@ -23,7 +23,9 @@ const Footer = () => {
         <div className="mx-auto">
           <ul className="d-flex gap-3 list-unstyled">
             <li>
-              <a className="bg-danger d-flex p-3 rounded-5 text-white align-items-center" href="https://www.instagram.com/ram_tanniru_/">
+              <a
+                className="bg-danger d-flex p-3 rounded-5 text-white align-items-center"
+                href="https://www.instagram.com/ram_tanniru_/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -36,7 +38,24 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a className="bg-danger d-flex p-3 rounded-5 text-white align-items-center" href="https://www.linkedin.com/in/ram-tanniru-12b35b222/">
+              <a
+                className="bg-danger d-flex p-3 rounded-5 text-white align-items-center"
+                href="https://twitter.com/Ram07025286">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-twitter-x"
+                  viewBox="0 0 16 16">
+                  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                className="bg-danger d-flex p-3 rounded-5 text-white align-items-center"
+                href="https://www.linkedin.com/in/ram-tanniru-12b35b222/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -49,7 +68,9 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a className="bg-danger d-flex p-3 rounded-5 text-white align-items-center" href="https://github.com/ramtanniru">
+              <a
+                className="bg-danger d-flex p-3 rounded-5 text-white align-items-center"
+                href="https://github.com/ramtanniru">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -64,7 +85,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <hr className="text-white"/>
+      <hr className="text-white" />
       <div className="d-flex justify-content-between mx-3 text-white">
         <div>
           <svg
@@ -75,10 +96,11 @@ const Footer = () => {
             class="bi bi-c-circle"
             viewBox="0 0 16 16">
             <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
-          </svg> Copyright
+          </svg>{" "}
+          Copyright
         </div>
         <div>
-            <p>Ram Tanniru</p>
+          <p>Ram Tanniru</p>
         </div>
       </div>
     </div>
